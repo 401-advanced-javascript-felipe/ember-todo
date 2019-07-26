@@ -1,0 +1,30 @@
+{{!-- {{yield}} --}}
+
+
+{{!-- <input class="toDoItem" onkeydown={{action "add"}}/> --}}
+{{!-- <input @id="itemId" @enter={{action "add"}} /> --}}
+
+
+{{!-- <input @enter={{action "add"}} /> --}}
+
+
+{{!-- 
+<form>
+  <input class="toDoItem" type="text"/>
+  <button {{action "add" item}}>Add</button>
+</form> --}}
+
+
+{{input value=item}}
+<button {{action "add"}}>Add</button>
+
+
+{{!-- type="submit" --}}
+<ul>
+  {{#each storage.items as |item|}}
+  <li>
+    {{item.name}}
+    <button {{action "remove" item}}>Delete</button>
+  </li>
+  {{/each}}
+</ul>
