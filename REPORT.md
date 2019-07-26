@@ -83,10 +83,15 @@ The JavaScript community is moving away from Ember. The quality and quantity of 
 
 ### Links and Resources
 [Ember](https://emberjs.com/)
+
 [Ember Tutorial](https://guides.emberjs.com/release/tutorial/)
+
 [Our Exploration of Ember](https://github.com/401-advanced-javascript-felipe/ember-todo)
+
 [Top JavaScript Frameworks For 2019](https://www.lambdatest.com/blog/top-javascript-frameworks-for-2019/)
+
 [State of JavaScript Front-End Frameworks 2018](https://2018.stateofjs.com/front-end-frameworks/overview/)
+
 [Honest Look At Ember in the Middle of 2018](https://medium.com/@vlascik/honest-look-at-ember-in-the-middle-of-2018-a0dc2787e506)
 
 
